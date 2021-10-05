@@ -1,0 +1,95 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: mahdi moeini, hoom, LIC=X1EY8-3MKVT-8XBUZ-J6QWF-1FV8B-UGIE2
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.24.1
+Toolchain Path:  D:\apps\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         
+Dialog DLL:      
+Target DLL:      Segger\JL2CM3.dll V2.99.26.0
+Dialog DLL:      TARMCM1.DLL V1.13.0.0
+ 
+<h2>Project:</h2>
+F:\karamouzi\99-08-01\FINAL_MQTT\99-08-29\salem1\examples\ble_central\ble_app_uart_c\pca10028\s130\arm5_no_packs\ble_app_uart_c_pca10028_s130.uvprojx
+Project File Date:  11/25/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\apps\ARM\ARMCC\Bin'
+Build target 'nrf51422_xxac'
+compiling main.c...
+..\..\..\..\..\..\components\drivers_nrf\timer\nrf_drv_config.h(30): warning:  #47-D: incompatible redefinition of macro "CLOCK_ENABLED"  (declared at line 350 of "..\config\sdk_config.h")
+  #define CLOCK_ENABLED 0
+..\..\..\..\..\..\components\drivers_nrf\timer\nrf_drv_config.h(39): warning:  #47-D: incompatible redefinition of macro "GPIOTE_ENABLED"  (declared at line 648 of "..\config\sdk_config.h")
+  #define GPIOTE_ENABLED 0
+..\..\..\..\..\..\components\drivers_nrf\timer\nrf_drv_config.h(104): warning:  #47-D: incompatible redefinition of macro "TIMER_COUNT"  (declared at line 78 of "D:\apps\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf51422_peripherals.h")
+  #define TIMER_COUNT (TIMER0_ENABLED + TIMER1_ENABLED + TIMER2_ENABLED + TIMER3_ENABLED + TIMER4_ENABLED)
+..\..\..\..\..\..\components\drivers_nrf\timer\nrf_drv_config.h(138): warning:  #47-D: incompatible redefinition of macro "RTC_COUNT"  (declared at line 90 of "D:\apps\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf51422_peripherals.h")
+  #define RTC_COUNT                (RTC0_ENABLED+RTC1_ENABLED+RTC2_ENABLED)
+..\..\..\..\..\..\components\drivers_nrf\timer\nrf_drv_config.h(246): warning:  #47-D: incompatible redefinition of macro "SPI_COUNT"  (declared at line 109 of "D:\apps\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf51422_peripherals.h")
+  #define SPI_COUNT   (SPI0_ENABLED + SPI1_ENABLED + SPI2_ENABLED)
+..\..\..\..\..\..\components\drivers_nrf\timer\nrf_drv_config.h(282): warning:  #47-D: incompatible redefinition of macro "SPIS_COUNT"  (declared at line 113 of "D:\apps\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf51422_peripherals.h")
+  #define SPIS_COUNT   (SPIS0_ENABLED + SPIS1_ENABLED + SPIS2_ENABLED)
+..\..\..\..\..\..\components\drivers_nrf\timer\nrf_drv_config.h(330): warning:  #47-D: incompatible redefinition of macro "TWI_COUNT"  (declared at line 117 of "D:\apps\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf51422_peripherals.h")
+  #define TWI_COUNT                (TWI0_ENABLED + TWI1_ENABLED)
+..\..\..\..\..\..\components\libraries\SimplePubSub\SimplePubSub.h(134): warning:  #1295-D: Deprecated declaration getBufferSize - give arg types
+  uint16_t  getBufferSize();
+..\..\..\..\..\..\components\libraries\SimplePubSub\SimplePubSub.h(141): warning:  #1295-D: Deprecated declaration disconnect - give arg types
+  void  disconnect();
+..\..\..\..\..\..\components\libraries\SimplePubSub\SimplePubSub.h(163): warning:  #1295-D: Deprecated declaration endPublish - give arg types
+  int  endPublish();
+..\..\..\..\..\..\components\libraries\SimplePubSub\SimplePubSub.h(172): warning:  #1295-D: Deprecated declaration loop - give arg types
+  
+ool  loop();
+..\..\..\..\..\..\components\libraries\SimplePubSub\SimplePubSub.h(173): warning:  #1295-D: Deprecated declaration connected - give arg types
+  
+ool  connected();
+..\..\..\..\..\..\components\libraries\SimplePubSub\SimplePubSub.h(174): warning:  #1295-D: Deprecated declaration state - give arg types
+  int  state();
+..\..\..\main.c: 13 warnings, 0 errors
+linking...
+Program Size: Code=17788 RO-data=764 RW-data=284 ZI-data=5044  
+FromELF: creating hex file...
+".\_build\nrf51422_xxac.axf" - 0 Error(s), 13 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM.CMSIS.4.5.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF5_SDK/pieces/nRF_DeviceFamilyPack/NordicSemiconductor.nRF_DeviceFamilyPack.8.11.1.pack
+                NordicSemiconductor.nRF_DeviceFamilyPack.8.11.1
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 8.11.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_nrf51422_xxac
+  D:\apps\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\apps\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: NordicSemiconductor::Device:Startup:8.11.1
+      Source file:   Device\Source\arm\arm_startup_nrf51.s
+      Source file:   Device\Source\system_nrf51.c
+      Include file:  Device\Include\system_nrf51.h
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
