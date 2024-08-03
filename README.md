@@ -24,7 +24,7 @@ The project includes two primary components:
 
 ### Prerequisites
 
-- NRF851 ARM microcontroller
+- NRF51822 ARM microcontroller
 - C Compiler compatible with ARM architecture
 - MQTT Broker for testing (e.g., Mosquitto)
 
