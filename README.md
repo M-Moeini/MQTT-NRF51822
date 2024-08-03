@@ -9,6 +9,7 @@ This project demonstrates the implementation of the MQTT protocol on Nordic micr
 The project includes two primary components:
 - **GPRS Connection**: Establishes a GPRS connection to the internet.
 - **MQTT Functionality**: Handles MQTT protocol operations including initialization, connection, publishing, and subscribing.
+- 
 
 ## Key Functions
 
