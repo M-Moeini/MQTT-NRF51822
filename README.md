@@ -1,7 +1,5 @@
 # MQTT Project on Nordic Microcontrollers
 
-**Author:** Mahdi Moeini
-
 This project demonstrates the implementation of the MQTT protocol on Nordic microcontrollers using GPRS connectivity. It includes functionalities for connecting, publishing, and subscribing. The project works well for all features except subscribing.
 
 ## Overview
