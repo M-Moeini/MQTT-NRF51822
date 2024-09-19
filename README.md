@@ -2,6 +2,9 @@
 
 This project demonstrates the implementation of the MQTT protocol on Nordic microcontrollers using GPRS connectivity. It includes functionalities for connecting, publishing, and subscribing. The project works well for all features except subscribing.
 
+## Important Note
+This project was built 4 years ago using C and C++. At the time, due to my lack of experience with version control, the code was directly pushed to GitHub without following proper CI/CD rules, incremental commits, or best practices. However, after 3 years of experience and growth in this tech stack, I now have sufficient knowledge to improve upon this project. I have decided to update the README and provide more detailed information to reflect the progress made on this incredible project
+
 ## Overview
 - `mqtt.c`: Contains the implementation of the MQTT protocol, including message handling and protocol operations.
 - `simplepubsub.c`: Implements a simple publish and subscribe mechanism using the MQTT protocol.
